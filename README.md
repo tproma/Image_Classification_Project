@@ -13,3 +13,5 @@ conda activate classifier/
 ```
 pip install -r requirements.txt
 ```
+
+### Workflow
