@@ -120,7 +120,6 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.classifier
 classifer/
 .env
 .venv
