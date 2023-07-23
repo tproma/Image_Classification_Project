@@ -22,4 +22,4 @@ pip install -r requirements.txt
 - update the components
 - update the pipelines
 - update main.py
-- update app.py
+- update dvc.yaml
