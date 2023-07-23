@@ -2,7 +2,7 @@
 
 ### Create the environment
 ```
-conda create -p classifier python==3.8 -y
+conda create -n classifier python==3.8 -y
 ```
 
 ```
