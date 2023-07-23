@@ -13,14 +13,10 @@ conda activate classifier/
 ```
 pip install -r requirements.txt
 ```
-
-### Workflow
-
-
-
 ## Workflows
 - update config.yaml
-- update  params.yaml
+- update secrets.yaml
+- update params.yaml
 - update entity
 - update the configuration manager in src config
 - update the components
