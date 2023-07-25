@@ -1,7 +1,7 @@
 import os
 import yaml
 from box.exceptions import BoxValueError
-from ImageClassifier.logging import logger
+from ImageClassifier import logger
 from ensure import ensure_annotations
 from box import ConfigBox
 from pathlib import Path
