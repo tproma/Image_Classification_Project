@@ -1,6 +1,6 @@
 from ImageClassifier.constants import *
 from ImageClassifier.utils.common import read_yaml, create_directories
-
+from ImageClassifier.entity.config_entity import DataIngestionConfig
 
 class ConfigurationManager:
     def __init__(
