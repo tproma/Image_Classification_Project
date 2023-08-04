@@ -1,3 +1,2 @@
 from ImageClassifier import logger
-
-logger.info("welcome to the custom log")
+from ImageClassifier.pipeline.stage_01_data_ingestion import DataIngestionTrainingPipeline
