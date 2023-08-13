@@ -1,4 +1,5 @@
 from ImageClassifier.constants import *
+import os
 from ImageClassifier.utils.common import read_yaml, create_directories
 from ImageClassifier.entity.config_entity import (DataIngestionConfig, 
                                 PrepareBaseModelConfig,
