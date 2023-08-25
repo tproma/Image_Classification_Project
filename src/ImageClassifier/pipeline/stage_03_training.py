@@ -1,6 +1,7 @@
 from ImageClassifier.config.configuration import ConfigurationManager
 from ImageClassifier.components.prepare_callbacks import PrepareCallback
 from ImageClassifier.components.training import Training 
+from ImageClassifier import logger
 
 
 STAGE_NAME = "Training"
@@ -24,3 +25,13 @@ class ModelTrainingPipeline:
             callback_list=callback_list
         )
 
+if __name__ == '__main__':
+    try:
+        logger.info(f"*******************")
+        logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<")
+        obj = ModelTrainingPipeline()
+        obj.main()
+        logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<\n\nx==========x")
+    except Exception as e:
+        logger.exception(e)
+        raise e
