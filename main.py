@@ -1,7 +1,7 @@
 from ImageClassifier import logger
 from ImageClassifier.pipeline.stage_01_data_ingestion import DataIngestionTrainingPipeline
 from ImageClassifier.pipeline.stage_02_prepare_base_model import PrepareBaseModelTrainingPipeline
-
+from ImageClassifier.pipeline.stage_03_training import ModelTrainingPipeline
 
 STAGE_NAME = "Data Ingestion Stage"
 
