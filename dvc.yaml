@@ -13,4 +13,9 @@ stages:
     deps:
       - src/cnnClassifier/pipeline/stage_02_prepare_base_model.py
       - config/config.yaml
-    
+    params:
+      - IMAGE_SIZE
+      - INCLUDE_TOP
+      - CLASSES
+      - WEIGHTS
+      - LEARNING_RATE
