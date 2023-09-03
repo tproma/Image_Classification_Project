@@ -19,3 +19,5 @@ stages:
       - CLASSES
       - WEIGHTS
       - LEARNING_RATE
+     outs:
+      - artifacts/prepare_base_model
