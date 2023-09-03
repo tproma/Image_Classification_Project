@@ -8,7 +8,7 @@ stages:
       - artifacts/data_ingestion/images
 
 
- prepare_base_model:
+  prepare_base_model:
     cmd: python src/cnnClassifier/pipeline/stage_02_prepare_base_model.py
     deps:
       - src/cnnClassifier/pipeline/stage_02_prepare_base_model.py
@@ -21,3 +21,7 @@ stages:
       - LEARNING_RATE
      outs:
       - artifacts/prepare_base_model
+
+
+  training:
+    cmd: python src/cnnClassifier/pipeline/stage_03_training.py
