@@ -4,4 +4,10 @@ stages:
     deps:
       - src\ImageClassifier\pipeline\stage_01_data_ingestion.py
       - config\config.yaml
-      
+    outs:
+      - artifacts/data_ingestion/images
+
+
+ prepare_base_model:
+    cmd: python src/cnnClassifier/pipeline/stage_02_prepare_base_model.py
+    
