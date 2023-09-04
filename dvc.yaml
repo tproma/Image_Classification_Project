@@ -25,3 +25,6 @@ stages:
 
   training:
     cmd: python src/cnnClassifier/pipeline/stage_03_training.py
+    deps:
+      - src/cnnClassifier/pipeline/stage_03_training.py
+      
