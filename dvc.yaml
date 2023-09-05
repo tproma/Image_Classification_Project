@@ -34,3 +34,5 @@ stages:
 
     params:
       - IMAGE_SIZE
+      - EPOCHS
+      - 
