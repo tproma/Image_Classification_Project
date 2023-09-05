@@ -30,3 +30,4 @@ stages:
       - src/cnnClassifier/components/prepare_callbacks.py
       - config/config.yaml
       - artifacts/data_ingestion/images
+      - artifacts/prepare_base_model
