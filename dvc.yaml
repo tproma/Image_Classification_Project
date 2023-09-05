@@ -31,3 +31,6 @@ stages:
       - config/config.yaml
       - artifacts/data_ingestion/images
       - artifacts/prepare_base_model
+
+    params:
+      - IMAGE_SIZE
