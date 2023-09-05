@@ -28,4 +28,4 @@ stages:
     deps:
       - src/cnnClassifier/pipeline/stage_03_training.py
       - src/cnnClassifier/components/prepare_callbacks.py
-      
+      - config/config.yaml
