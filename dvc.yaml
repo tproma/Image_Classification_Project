@@ -35,4 +35,4 @@ stages:
     params:
       - IMAGE_SIZE
       - EPOCHS
-      - 
+      - BATCH_SIZE
