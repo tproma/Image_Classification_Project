@@ -36,3 +36,4 @@ stages:
       - IMAGE_SIZE
       - EPOCHS
       - BATCH_SIZE
+      - AUGMENTATION
