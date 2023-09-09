@@ -24,10 +24,10 @@ stages:
 
 
   training:
-    cmd: python src/cnnClassifier/pipeline/stage_03_training.py
+    cmd: python src/ImageClassifier/pipeline/stage_03_training.py
     deps:
-      - src/cnnClassifier/pipeline/stage_03_training.py
-      - src/cnnClassifier/components/prepare_callbacks.py
+      - src/ImageClassifier/pipeline/stage_03_training.py
+      - src/ImageClassifier/components/prepare_callbacks.py
       - config/config.yaml
       - artifacts/data_ingestion/images
       - artifacts/prepare_base_model
