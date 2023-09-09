@@ -47,3 +47,4 @@ stages:
     deps:
       - src/cnnClassifier/pipeline/stage_04_evaluation.py
       - config/config.yaml
+      - artifacts/data_ingestion/images
