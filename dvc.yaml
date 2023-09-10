@@ -43,8 +43,8 @@ stages:
   
 
   evaluation:
-    cmd: python src/cnnClassifier/pipeline/stage_04_evaluation.py
+    cmd: python src/ImageClassifier/pipeline/stage_04_evaluation.py
     deps:
-      - src/cnnClassifier/pipeline/stage_04_evaluation.py
+      - src/ImageClassifier/pipeline/stage_04_evaluation.py
       - config/config.yaml
       - artifacts/data_ingestion/images
