@@ -48,3 +48,7 @@ stages:
       - src/ImageClassifier/pipeline/stage_04_evaluation.py
       - config/config.yaml
       - artifacts/data_ingestion/images
+
+    params:
+      - IMAGE_SIZE
+      - BATCH_SIZE
