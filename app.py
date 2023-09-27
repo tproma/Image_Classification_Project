@@ -1,6 +1,7 @@
 from flask import Flask, request, jsonify, render_template 
 import os
 from flask_cors import CORS, cross_origin
+from ImageClassifier.utils.common import decodeImage
 
 app = Flask(__name__)
 
