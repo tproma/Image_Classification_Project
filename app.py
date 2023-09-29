@@ -5,6 +5,7 @@ from ImageClassifier.utils.common import decodeImage
 from ImageClassifier.pipeline.predict import PredictionPipeline
 
 
+os.putenv('LANG', 'en_US.UTF-8')
 
 app = Flask(__name__)
 
