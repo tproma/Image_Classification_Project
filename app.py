@@ -11,16 +11,6 @@ os.putenv('LC_ALL', 'en_US.UTF-8')
 
 app = Flask(__name__)
 
-@app.route('/via_postman', methods= ['POST'])
-def math_postman():
-    if (request.method =='POST'):
-        n1 = int(request.json['n1'])
-        n2 = int(request.json['n2'])
-        n3 = int(request.json['n3'])
-        result = n1 * n2 *n3
-        return jsonify(result)
-    
-
 
 @app.route('/pro', methods= ['POST'])
 def strs():
