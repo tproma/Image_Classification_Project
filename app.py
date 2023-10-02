@@ -13,5 +13,11 @@ app = Flask(__name__)
 CORS(app)
 
 
+class ClientApp:
+    def __init__(self):
+        self.filename = "inputImage.jpg"
+        self.classifier = PredictionPipeline(self.filename)
+
+
 if __name__=='__main__':
     app.run()
