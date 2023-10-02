@@ -12,13 +12,6 @@ os.putenv('LC_ALL', 'en_US.UTF-8')
 app = Flask(__name__)
 
 
-@app.route('/pro', methods= ['POST'])
-def strs():
-    if (request.method =='POST'):
-        name  = request.json['name']
-        email = request.json['email']
-        
-        return jsonify(name + email)
 
 if __name__=='__main__':
     app.run()
