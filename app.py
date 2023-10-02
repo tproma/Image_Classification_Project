@@ -10,7 +10,7 @@ os.putenv('LC_ALL', 'en_US.UTF-8')
 
 
 app = Flask(__name__)
-
+CORS(app)
 
 
 if __name__=='__main__':
